@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF45319A2562DB4B0006A971 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4531992562DB4B0006A971 /* Player.swift */; };
 		BF726EAA255C43AC00BFC88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF726EA9255C43AC00BFC88E /* AppDelegate.swift */; };
 		BF726EAC255C43AC00BFC88E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF726EAB255C43AC00BFC88E /* SceneDelegate.swift */; };
-		BF726EAE255C43AC00BFC88E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF726EAD255C43AC00BFC88E /* ViewController.swift */; };
+		BF726EAE255C43AC00BFC88E /* LakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF726EAD255C43AC00BFC88E /* LakersViewController.swift */; };
 		BF726EB1255C43AD00BFC88E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF726EAF255C43AD00BFC88E /* Main.storyboard */; };
 		BF726EB3255C43B000BFC88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF726EB2255C43B000BFC88E /* Assets.xcassets */; };
 		BF726EB6255C43B000BFC88E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF726EB4255C43B000BFC88E /* LaunchScreen.storyboard */; };
 		BF726EC1255C43B000BFC88E /* ProjectThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF726EC0255C43B000BFC88E /* ProjectThreeTests.swift */; };
 		BF726ECC255C43B000BFC88E /* ProjectThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF726ECB255C43B000BFC88E /* ProjectThreeUITests.swift */; };
+		BF726EDA255C480F00BFC88E /* LakersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF726ED9255C480F00BFC88E /* LakersAPI.swift */; };
+		BF726EDC255C4DD800BFC88E /* PlayerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF726EDB255C4DD800BFC88E /* PlayerStore.swift */; };
+		BFDF10902565A04B00E250B5 /* PlayerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF108F2565A04B00E250B5 /* PlayerDataSource.swift */; };
+		BFDF10922565A57600E250B5 /* PlayerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF10912565A57600E250B5 /* PlayerCollectionViewCell.swift */; };
+		BFDF10942565B15F00E250B5 /* PlayerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDF10932565B15F00E250B5 /* PlayerInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF726EA6255C43AC00BFC88E /* ProjectThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4531992562DB4B0006A971 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BF726EA6255C43AC00BFC88E /* Player Attributes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Player Attributes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF726EA9255C43AC00BFC88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF726EAB255C43AC00BFC88E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF726EAD255C43AC00BFC88E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF726EAD255C43AC00BFC88E /* LakersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakersViewController.swift; sourceTree = "<group>"; };
 		BF726EB0255C43AD00BFC88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF726EB2255C43B000BFC88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF726EB5255C43B000BFC88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		BF726EC7255C43B000BFC88E /* ProjectThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF726ECB255C43B000BFC88E /* ProjectThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectThreeUITests.swift; sourceTree = "<group>"; };
 		BF726ECD255C43B000BFC88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF726ED9255C480F00BFC88E /* LakersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakersAPI.swift; sourceTree = "<group>"; };
+		BF726EDB255C4DD800BFC88E /* PlayerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStore.swift; sourceTree = "<group>"; };
+		BFDF108F2565A04B00E250B5 /* PlayerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDataSource.swift; sourceTree = "<group>"; };
+		BFDF10912565A57600E250B5 /* PlayerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFDF10932565B15F00E250B5 /* PlayerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +101,7 @@
 		BF726EA7255C43AC00BFC88E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF726EA6255C43AC00BFC88E /* ProjectThree.app */,
+				BF726EA6255C43AC00BFC88E /* Player Attributes.app */,
 				BF726EBC255C43B000BFC88E /* ProjectThreeTests.xctest */,
 				BF726EC7255C43B000BFC88E /* ProjectThreeUITests.xctest */,
 			);
@@ -101,9 +113,15 @@
 			children = (
 				BF726EA9255C43AC00BFC88E /* AppDelegate.swift */,
 				BF726EAB255C43AC00BFC88E /* SceneDelegate.swift */,
-				BF726EAD255C43AC00BFC88E /* ViewController.swift */,
+				BF726EAD255C43AC00BFC88E /* LakersViewController.swift */,
+				BF4531992562DB4B0006A971 /* Player.swift */,
+				BF726ED9255C480F00BFC88E /* LakersAPI.swift */,
 				BF726EAF255C43AD00BFC88E /* Main.storyboard */,
+				BFDF10932565B15F00E250B5 /* PlayerInfoViewController.swift */,
+				BFDF10912565A57600E250B5 /* PlayerCollectionViewCell.swift */,
+				BFDF108F2565A04B00E250B5 /* PlayerDataSource.swift */,
 				BF726EB2255C43B000BFC88E /* Assets.xcassets */,
+				BF726EDB255C4DD800BFC88E /* PlayerStore.swift */,
 				BF726EB4255C43B000BFC88E /* LaunchScreen.storyboard */,
 				BF726EB7255C43B000BFC88E /* Info.plist */,
 			);
@@ -145,7 +163,7 @@
 			);
 			name = ProjectThree;
 			productName = ProjectThree;
-			productReference = BF726EA6255C43AC00BFC88E /* ProjectThree.app */;
+			productReference = BF726EA6255C43AC00BFC88E /* Player Attributes.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BF726EBB255C43B000BFC88E /* ProjectThreeTests */ = {
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF726EAE255C43AC00BFC88E /* ViewController.swift in Sources */,
+				BFDF10902565A04B00E250B5 /* PlayerDataSource.swift in Sources */,
+				BF726EAE255C43AC00BFC88E /* LakersViewController.swift in Sources */,
 				BF726EAA255C43AC00BFC88E /* AppDelegate.swift in Sources */,
+				BF726EDC255C4DD800BFC88E /* PlayerStore.swift in Sources */,
+				BFDF10942565B15F00E250B5 /* PlayerInfoViewController.swift in Sources */,
+				BF726EDA255C480F00BFC88E /* LakersAPI.swift in Sources */,
+				BFDF10922565A57600E250B5 /* PlayerCollectionViewCell.swift in Sources */,
+				BF45319A2562DB4B0006A971 /* Player.swift in Sources */,
 				BF726EAC255C43AC00BFC88E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +465,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kirkbaguley.ProjectThree;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Player Attributes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kirkbaguley.ProjectThree;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Player Attributes";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
