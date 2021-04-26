@@ -1,1 +1,2 @@
-# playerattributes
+# Player Attributes
+Player Attributes is an iOS app for fans of the NBA. The main page displays a list of players and their position. When clicked on, the players, height, weight, position and a key for positions is displayed on the player information page. All of the player data is being pulled from the web API balldontlie.io and the json is being parsed and selected to display these certain attributes. 
